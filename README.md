@@ -1,2 +1,3 @@
 # pern-stack-app
-Simple app using PostgreSQL, Express, Node.js, and React
+
+Simple to-do list app using PostgreSQL, Express, Node.js, and React
