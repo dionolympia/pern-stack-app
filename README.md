@@ -10,7 +10,7 @@ Simple to-do list app using PostgreSQL, Express, Node.js, and React
 
 -   Node.js = API server
 
-How to start API server:
+## How to start API server:
 
 -   Navigate to the server directory - "cd \server"
 
