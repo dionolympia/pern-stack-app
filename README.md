@@ -2,10 +2,11 @@
 
 Simple to-do list app using PostgreSQL, Express, Node.js, and React
 
-PostgreSQL = Relational Database Management System
+- PostgreSQL = Relational Database Management System
 
-Express = HTTP utility methods and middleware
+- Express = HTTP utility methods and middleware
 
-Node.js = API server
+- React = Front-end Framework
 
-React = Front-end Framework
+- Node.js = API server
+
