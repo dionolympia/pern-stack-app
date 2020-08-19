@@ -8,7 +8,7 @@ Simple to-do list app using PostgreSQL, Express, React, and Node.js
 
 - React = Front-end Framework
 
-- Node.js = API server
+- Node.js = RESTful API server
 
 ## How to start API server:
 
