@@ -34,7 +34,7 @@ const ListTodos = () => {
     getTodos();
   }, []);
 
-  console.log(todos);
+  // console.log(todos);
 
   return (
     <Fragment>
@@ -59,7 +59,7 @@ const ListTodos = () => {
             <tr key={todo.todo_id}>
               <td>{todo.description}</td>
               <td>
-                <EditTodo />
+                <EditTodo todo={todo} />
               </td>
               <td>
                 <button

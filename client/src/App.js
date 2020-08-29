@@ -6,12 +6,14 @@ import InputTodo from "./components/InputTodo";
 import ListTodos from "./components/ListTodos";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import LandingPage from "./components/LandingPage";
 
 function App() {
   return (
     <Fragment>
       <Header />
-      <div>
+      <LandingPage />
+      <div id="content">
         <div className="container">
           <div className="row">
             <div className="col-md">

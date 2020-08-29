@@ -5,8 +5,11 @@ const Header = () => {
     <Fragment>
       <footer class="page-footer font-small bg-light fixed-bottom">
         <div class="footer-copyright text-center py-3">
-          <p>
+          {/* <p>
             CVP College Hire Bootcamp - <b>Team B</b>
+          </p> */}
+          <p>
+            Created by <b>Dion Olympia</b>
           </p>
         </div>
       </footer>
