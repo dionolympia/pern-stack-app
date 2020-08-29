@@ -4,7 +4,6 @@ const InputTodo = () => {
   const [description, setDescription] = useState("");
 
   const onSubmitForm = async (e) => {
-    console.log("test");
     e.preventDefault();
     try {
       const body = { description };
@@ -13,7 +12,9 @@ const InputTodo = () => {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(body),
       });
-      console.log(response);
+
+      // console.log(response);
+      window.location = "/";
     } catch (err) {
       console.error(err.message);
     }
@@ -21,7 +22,7 @@ const InputTodo = () => {
 
   return (
     <Fragment>
-      <h1 className="text-center mt-5">Input Todo (header)</h1>
+      <h3 className="text-center mt-5">Create a Todo</h3>
       <form className="d-flex mt-5" onSubmit={onSubmitForm}>
         <input
           type="text"
@@ -29,7 +30,7 @@ const InputTodo = () => {
           value={description}
           onChange={(e) => setDescription(e.target.value)}
         />
-        <button className="btn btn-success">Add</button>
+        <button className="btn btn-primary">Add</button>
       </form>
     </Fragment>
   );
