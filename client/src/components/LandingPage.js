@@ -8,7 +8,7 @@ const LandingPage = () => {
         <div className="container">
           <div className="row">
             <div className="col-xl-9 mx-auto">
-              <h2 className="mb-5">Todo-List Tool</h2>
+              <h1 className="mb-5">Todo-List Tool</h1>
 
               <h5>
                 {/* This tool would allow answers to managed, displayed and answered
